@@ -4,6 +4,10 @@ function ContactMe() {
   function ChangePage() {
     localStorage["currentPage"] = "Contact";
   }
+  function Year() {
+    const date = new Date();
+    return date.getFullYear();
+  }
   return (
     <>
       <div onMouseEnter={ChangePage} id="contact-body">
@@ -109,7 +113,7 @@ function ContactMe() {
               ></input>
             </form>
           </div>
-          <footer className="footer-styles">&copy;Griffin Penn 2025</footer>
+          <footer className="footer-styles">&copy;Griffin Penn {Year()}</footer>
         </div>
       </div>
     </>
