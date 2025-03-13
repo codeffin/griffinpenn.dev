@@ -109,7 +109,7 @@ function ContactMe() {
               ></input>
             </form>
           </div>
-          <footer className="footer-styles">&copy;Griffin Penn 2024</footer>
+          <footer className="footer-styles">&copy;Griffin Penn 2025</footer>
         </div>
       </div>
     </>
