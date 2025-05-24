@@ -1,34 +1,11 @@
 import "./NavBarStyles.css";
 import dark from "./dark.png";
+import PenBar from "./PenOverLayComponents/PenBar";
 import light from "./light.png";
 
 //import linkedin from "./linkedin.png";
 //import octo from "./octocat.png";
 
-let isClicked = false;
-
-function MoveLogo() {
-  const logo = document.getElementById("switch-icon") as HTMLImageElement;
-  const switchButton = document.getElementById(
-    "switch_button"
-  ) as HTMLImageElement;
-
-  if (!isClicked && logo) {
-    logo.style.marginRight = "-24px";
-
-    alert("UNDER CONSTRUCTION!");
-    isClicked = true;
-    switchButton.style.backgroundColor = "#6900ff";
-    logo.src = dark;
-  } else if (isClicked && logo) {
-    logo.style.marginRight = "24px";
-
-    logo.src = light;
-    switchButton.style.backgroundColor = "#f6f6f6";
-
-    isClicked = false;
-  }
-}
 let isMobileMenuVisable = false;
 function MobileMenuToggle() {
   const mobileMenu = document.getElementById("mobile-menu") as HTMLDivElement;
@@ -93,13 +70,7 @@ function NavBar(props: any) {
             <div className="mobile-menu-button">
               <button onClick={MobileMenuToggle}>#</button>
             </div>
-            <div className="display-switch">
-              <p>Light</p>
-              <button id="switch_button" onClick={MoveLogo}>
-                <img src={light} id="switch-icon" />
-              </button>
-              <p>Dark</p>
-            </div>
+            <PenBar />
           </div>
           <div className="mobile-menu-dropdown" id="mobile-menu">
             <a href="#aboutme-body">
