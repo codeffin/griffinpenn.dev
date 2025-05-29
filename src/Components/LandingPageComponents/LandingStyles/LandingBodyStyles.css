@@ -94,16 +94,16 @@
     
     
     .landing-text-desktop{
-        margin-top: 300px;
+        margin-top: 350px;
         width: 600px;
-        height: 500px;
-        margin-left: 10px;
+        height: 600px;
+        margin-left: 60px;
     }
 
     .landing-image img{
-        width: 430px;   
-        height: 430px;
-        margin-left: -250px;
+        width: 490px;   
+        height: 490px;
+        margin-left: -270px;
         margin-top: 60px;
     }
     #arrow-styles{
@@ -113,7 +113,7 @@
     }
 
     #arrow-styles img{  
-        margin-top: 760px;
+        margin-top: 930px;
         width: 120px;
         height: 120px;
         margin-left: -160px;
@@ -127,6 +127,15 @@
         display: none;
     }
 
+}
+
+@media screen and (max-height: 1000px) {
+ #arrow-styles img{  
+        margin-top: 760px;
+        width: 100px;
+        height: 100px;
+        margin-left: -160px;
+    }
 }
 
 

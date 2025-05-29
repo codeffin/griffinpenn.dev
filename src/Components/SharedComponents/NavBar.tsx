@@ -1,7 +1,5 @@
 import "./NavBarStyles.css";
-import dark from "./dark.png";
 import PenBar from "./PenOverLayComponents/PenBar";
-import light from "./light.png";
 
 //import linkedin from "./linkedin.png";
 //import octo from "./octocat.png";
@@ -70,7 +68,9 @@ function NavBar(props: any) {
             <div className="mobile-menu-button">
               <button onClick={MobileMenuToggle}>#</button>
             </div>
-            <PenBar />
+            <div className="penn-button">
+              <PenBar />
+            </div>
           </div>
           <div className="mobile-menu-dropdown" id="mobile-menu">
             <a href="#aboutme-body">

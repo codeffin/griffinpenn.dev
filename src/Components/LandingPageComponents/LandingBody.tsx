@@ -30,12 +30,13 @@ function LandingBody() {
               <p className="name-mobile">
                 <b>Griffin Penn</b>
               </p>
-              <p>
-                I am a <b>Full-Stack XR and Web Developer</b> based out of{" "}
-                <b>Seattle, Washington</b>
-              </p>
+
               <p className="port-mobile">
-                Take a look at my <b>portfolio</b> below!
+                <p>
+                  I am a <b>Full-Stack XR and Web Developer</b> based out of{" "}
+                  <b>Seattle, Washington</b>
+                </p>
+                z Take a look at my <b>portfolio</b> below!
               </p>
             </div>
 

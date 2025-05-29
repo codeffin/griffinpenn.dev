@@ -2,7 +2,6 @@
     z-index: 4;
     margin-top: 30px;
     margin-bottom: -150px;
-    
 }
 
 .nav-bar-style{
@@ -122,7 +121,9 @@
         margin-right: 10px;
         
     }
-    
+    .penn-button{
+        display: none;
+    }
     .nav-bar-style{
         background-color: #f6f6f6;
         box-shadow: 0 6px 12px -2px  #01032650;

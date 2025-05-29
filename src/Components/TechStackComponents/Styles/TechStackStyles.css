@@ -99,7 +99,7 @@
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1450px) {
     #tech-stack-body{
         background-image: url("./Assets/BackgroundImage.png");
         background-repeat: no-repeat;
