@@ -188,20 +188,24 @@
         width: 100%;
         background-color: #f6f6f6;
         z-index: 3;
-        margin-top: -10px;
+        margin-top: -16px;
         display: none;
         grid-template-rows: auto auto auto;
-        box-shadow: 0 6px 12px -2px  #01032650;
-        
+        box-shadow: 0 16px 16px -4px  #01032650;
+        padding: 12px;
+        border-radius: 0 0 20px 20px;
+
     }
+
     .mobile-menu-dropdown button{
         border: none;
         height: 40px;
         width: 100%;
         background-color: #f6f6f6;
         margin-top: 10px;
-        border-bottom: solid #010326 1px;
-        
+        border-bottom: solid #6900ff 4px;
+        font-size: 18px;
+        font-weight: bold;
     }
 
 }
