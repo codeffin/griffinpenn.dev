@@ -145,15 +145,16 @@
     .landing-image img{
         width: auto;   
         height: 370px;
-        text-align: center;
-
+        
     }
 
     .landing-image{
         margin-top: 220px;
         height: 50px;
-        width: auto;
+        width: 90%;
         position: absolute;
+        text-align: center;
+
     }
 
 
