@@ -139,7 +139,7 @@
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
 
     .landing-body{
         background-image: url("./Assets/BackgroundImage.png");
@@ -164,7 +164,7 @@
         text-align: center;
     }
     #arrow-styles{
-        width: 95%;
+        width: 600px;
         height: 200px;
         margin-top:720px;
         position: absolute;

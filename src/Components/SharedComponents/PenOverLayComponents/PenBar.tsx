@@ -1,5 +1,5 @@
 import "./Styles/PenBarStyles.css";
-import placeholder from "./Styles/Assests/LOGO.png";
+import pen from "./Styles/Assests/pen.png";
 import { useState } from "react";
 
 function PenBar() {
@@ -45,7 +45,7 @@ function PenBar() {
                 </li>
               </ul>
             </div>
-            <img onClick={DisplayTools} src={placeholder} />
+            <img onClick={DisplayTools} src={pen} />
           </button>
         </div>
       </div>
