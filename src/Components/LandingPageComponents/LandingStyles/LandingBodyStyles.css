@@ -2,7 +2,7 @@
     .landing-body{
         background-image: url("./Assets/BackgroundImage.png");
         background-repeat: no-repeat;
-        background-size: 100% 1360px;
+        background-size: 100% 100%;
         width: auto;
         z-index: 4;
         box-shadow: 0 16px 2px -2px  #01032650;
@@ -14,7 +14,7 @@
         grid-template-columns: auto auto auto;
         height: auto;
         width: auto;
-        height: 1360px;
+        height: 1060px;
     }
     
     
@@ -23,19 +23,24 @@
         display: flexbox;
         width: 700px;
         height: 500px;
-        margin-left: -100px;
-        font-size: 24px;
+        margin-left: 80px;
+        margin-right: -200px;
+        font-size: 26px;
     }
+
+        .landing-text-desktop p{
+            margin-top: -20px;
+        }
     
     .landing-image{
-        margin-top: 150px;
-        margin-left: 16%;
+        margin-top: 180px;
+        
         height: 800px;
     }
     
     .landing-image img{
-        width: 700px;
-        height: 700px;
+        width: 530px;
+        height: 530px;
     }
     
     #arrow-styles{
@@ -44,17 +49,17 @@
     }
     
     #arrow-styles img{
-        margin-top: 1100px;
-        width: 130px;
-        height: 130px;
+        margin-top: 920px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100px;
+        height: 100px;
 
     }
 
     #first-name{
         color: #6900ff;
-        font-size: 60px;
-        margin-top: -36px;
-        margin-bottom: -6px;
+        font-size: 70px;
     }
     
     #port{
@@ -70,65 +75,6 @@
     }
 
 
-@media screen and (max-width: 1920px) {
-
-    .landing-body{
-        background-image: url("./Assets/BackgroundImage.png");
-        background-repeat: no-repeat;
-        background-size: 100% 1100px;
-        width: auto;
-        z-index: 4;
-        box-shadow: 0 16px 2px -2px  #01032650;
-        margin-top: 1px;
-        padding: auto;
-    }
-
-    .landing-elements{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        height: auto;
-        width: auto;
-        height: 1100px;
-       
-    }
-    
-    
-    .landing-text-desktop{
-        margin-top: 350px;
-        width: 600px;
-        height: 600px;
-        margin-left: 60px;
-    }
-
-    .landing-image img{
-        width: 490px;   
-        height: 490px;
-        margin-left: -270px;
-        margin-top: 60px;
-    }
-    #arrow-styles{
-        width: 130px;
-        height: 130px;
-
-    }
-
-    #arrow-styles img{  
-        margin-top: 930px;
-        width: 120px;
-        height: 120px;
-        margin-left: -160px;
-    }
-
-    .landing-text-mobile{
-        display: none;
-    }
-
-    .port-mobile{
-        display: none;
-    }
-
-}
-
 @media screen and (max-height: 1000px) {
  #arrow-styles img{  
         margin-top: 760px;
@@ -139,7 +85,7 @@
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1450px){
 
     .landing-body{
         background-image: url("./Assets/BackgroundImage.png");
@@ -152,6 +98,9 @@
     }
 
     .landing-elements{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
         height: auto;
         width: auto;
         height: 820px;
@@ -161,14 +110,13 @@
         width: 70px;
         height: 70px;
         margin: 0;
-        text-align: center;
     }
     #arrow-styles{
-        width: 600px;
         height: 200px;
         margin-top:720px;
         position: absolute;
         text-align: center;
+        width: 90%;
     }
 
     .landing-text-desktop{
@@ -189,15 +137,16 @@
         width: 100%;
         height: 200px;
         display: block;
-        font-size: 16px;
-        margin-top: 400px;
+        font-size: 18px;
+        margin-top: 380px;
     }
 
 
     .landing-image img{
         width: auto;   
         height: 370px;
-        
+        text-align: center;
+
     }
 
     .landing-image{
@@ -205,8 +154,6 @@
         height: 50px;
         width: auto;
         position: absolute;
-        left: 50%;
-        right: 50%;
     }
 
 
