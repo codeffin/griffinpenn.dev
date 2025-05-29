@@ -1,5 +1,6 @@
 import "./NavBarStyles.css";
 import PenBar from "./PenOverLayComponents/PenBar";
+import menuButton from "./menu.png";
 
 //import linkedin from "./linkedin.png";
 //import octo from "./octocat.png";
@@ -66,7 +67,9 @@ function NavBar(props: any) {
               </a>
             </div>
             <div className="mobile-menu-button">
-              <button onClick={MobileMenuToggle}>#</button>
+              <button onClick={MobileMenuToggle}>
+                <img src={menuButton} alt="" />
+              </button>
             </div>
             <div className="penn-button">
               <PenBar />
