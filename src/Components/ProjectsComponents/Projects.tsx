@@ -28,10 +28,22 @@ function Projects() {
             </p>
           </div>
           <div className="projects-container-desktop">
-            <ProjectBox />
-            <ProjectBox />
-            <ProjectBox />
-            <ProjectBox />
+            <ProjectBox
+              title="Project Vulcn"
+              bio="Really cool project! Experimenting with temperature immersion in virtual reality"
+            />
+            <ProjectBox
+              title="G-Paint"
+              bio="Experimenting with the canvas that allowed me to have a drawing mode on this website"
+            />
+            <ProjectBox
+              title="Tec-Job Time Keeper"
+              bio="Simulates clocking in and out for a job"
+            />
+            <ProjectBox
+              title="ColabBoard"
+              bio="Trello like scrum/agile project planner"
+            />
           </div>
           <div className="projects-container-mobile">
             <ProjectBox />
