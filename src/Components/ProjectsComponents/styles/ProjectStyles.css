@@ -1,11 +1,11 @@
 #projects-body{
     background-image: url("./Assets/BackgroundImage.png");
     background-repeat: no-repeat;
-    background-size: 100% 2660px;
+    background-size: 100% 100%;
     width: auto;
     z-index: 4;
     box-shadow: 0 16px 2px -2px  #01032650;
-    height: 2660px;
+    height: auto;
     margin-top: 1px;
 }
 
@@ -17,8 +17,10 @@
 .projects-container-desktop{
     display: grid;
     grid-template-columns: auto;
-   
     place-content: left;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .projects-container-mobile{
     display: none;
