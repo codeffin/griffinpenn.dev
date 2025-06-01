@@ -16,9 +16,9 @@
 
 .projects-container-desktop{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
    
-    place-content: center;
+    place-content: left;
 }
 .projects-container-mobile{
     display: none;
@@ -45,7 +45,7 @@
 }
 
 
-@media screen and (max-width: 1920px) {
+/* @media screen and (max-width: 1920px) {
     #projects-body{
         background-image: url("./Assets/BackgroundImage.png");
         background-repeat: no-repeat;
@@ -88,9 +88,9 @@
     .colored-emp{
         color:#6900ff;
     }
-}
+} */
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1300px) {
     #projects-body{
         background-image: url("./Assets/BackgroundImage.png");
         background-repeat: no-repeat;

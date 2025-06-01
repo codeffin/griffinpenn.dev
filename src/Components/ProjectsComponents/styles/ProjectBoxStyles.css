@@ -1,5 +1,37 @@
+.project-box{
+    width: 300px;
+    height: 350px;
+    background-color: #6900ff;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0 50px 25%;
+}
 
 
+.project-box img{
+    width: 280px;
+    height: 180px;
+}
+
+.project-box h3{
+    text-align: left;
+    color: #f6f6f6;
+    margin-top: 10px;
+}
+
+
+.project-box button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #f6f6f6;
+    border-radius: 12px;
+    margin-top: 50px;
+    display: flex;
+    float: right;
+    text-align: center;
+}
 
 
 @media screen and (max-width: 1450px) {
